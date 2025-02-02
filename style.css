@@ -29,14 +29,15 @@ header {
     padding: 10px 20px;
     border-radius: 8px;
     font-size: 16px;
-    cursor: url('soup.png');
     margin-top: 1em;
 }
 .custom-button:hover {
     background-color: #e64a19;
+    color: #f5e0b3;
     transform: scale(1.05);
 }
 .custom-button:active {
     background-color: #d84315;
+    color: #f5e0b3;
     transform: scale(0.95);
 }
