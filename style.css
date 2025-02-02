@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e0b3;
+    color: #333;
+    text-align: center;
+}
+header {
+    background-color: #ff5959;
+    color: white;
+    padding: 1em 0;
+}
+.soup-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 2em 0;
+}
+.soup-gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+.custom-button {
+    background-color: #ff7043;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: url('soup.png');
+    margin-top: 1em;
+}
+.custom-button:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+.custom-button:active {
+    background-color: #d84315;
+    transform: scale(0.95);
+}
