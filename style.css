@@ -1,15 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5e0b3;
+    background-color: #fff4e2;
     color: #333;
     text-align: center;
 }
 header {
-    background-color: #ff5959;
-    color: white;
+    background-color: #d84315;
+    color: #fff4e2;
     padding: 1em 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .soup-gallery {
     display: flex;
@@ -40,4 +41,41 @@ header {
     background-color: #d84315;
     color: #f5e0b3;
     transform: scale(0.95);
+}
+
+#sidebar{
+    background-color: #ff5959;
+    color: #fff4e2;
+    width: 50%;
+    text-align: center;
+}
+#main{
+    background-color: #d84315;
+    color:#fff4e2;
+    width: 50%;
+    text-align: center;
+}
+#box{
+    background-color: #ff5959;
+    color:#fff4e2;
+    width: 50%;
+    text-align: center;
+}
+#box_2{
+    background-color: #d84315;
+    color:#fff4e2;
+    width: 50%;
+    text-align: center;
+}
+#container{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    border-radius: 50px;
+}
+#container_2{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    border-radius: 50px;
 }
